@@ -74,7 +74,7 @@ project-genai-rag-langchain/
 
 Sayon Bhattacharjee
 
-Azure Data Engineer | Pune, India
+Data Engineer | Pune, India
 
 📧 sayon.bhattacharjee212@gmail.com
 
