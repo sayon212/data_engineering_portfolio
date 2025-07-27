@@ -1,0 +1,1 @@
+[2025-07-26T19:45:14.580+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-26T19:45:10.005773+00:00 [queued]> finished (success) although the task says it's queued. (Info: None) Was the task killed externally?

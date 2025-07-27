@@ -1,0 +1,64 @@
+[2025-07-26T17:57:23.091+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-26T17:57:20.589996+00:00 [queued]>
+[2025-07-26T17:57:23.136+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-26T17:57:20.589996+00:00 [queued]>
+[2025-07-26T17:57:23.140+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-26T17:57:23.173+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_curated_transformation> on 2025-07-26 17:57:20.589996+00:00
+[2025-07-26T17:57:23.187+0000] {standard_task_runner.py:60} INFO - Started process 1074 to run task
+[2025-07-26T17:57:23.194+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pl001_ingest_crypto_postgres', 'dbt_curated_transformation', 'manual__2025-07-26T17:57:20.589996+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/***_pipeline.py', '--cfg-path', '/tmp/tmpp5xmwbcx']
+[2025-07-26T17:57:23.200+0000] {standard_task_runner.py:88} INFO - Job 77: Subtask dbt_curated_transformation
+[2025-07-26T17:57:23.240+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-07-26T17:57:23.381+0000] {task_command.py:423} INFO - Running <TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-26T17:57:20.589996+00:00 [running]> on host dfd1c4a1c4e4
+[2025-07-26T17:57:23.548+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pl001_ingest_crypto_postgres' AIRFLOW_CTX_TASK_ID='dbt_curated_transformation' AIRFLOW_CTX_EXECUTION_DATE='2025-07-26T17:57:20.589996+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-26T17:57:20.589996+00:00'
+[2025-07-26T17:57:23.554+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-07-26T17:57:23.555+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        export DBT_LOG_PATH=/tmp/dbt &&         mkdir -p /tmp/dbt &&         cd /opt/***/dbt &&         dbt run \n        ']
+[2025-07-26T17:57:23.578+0000] {subprocess.py:86} INFO - Output:
+[2025-07-26T17:57:33.645+0000] {subprocess.py:93} INFO - [0m17:57:33  Running with dbt=1.7.14
+[2025-07-26T17:57:34.255+0000] {subprocess.py:93} INFO - [0m17:57:34  Registered adapter: postgres=1.7.14
+[2025-07-26T17:57:34.354+0000] {subprocess.py:93} INFO - [0m17:57:34  Unable to do partial parsing because a project config has changed
+[2025-07-26T17:57:39.393+0000] {subprocess.py:93} INFO - [0m17:57:39  [[33mWARNING[0m]: Did not find matching node for patch with name 'fact_trades' in the 'models' section of file 'models/processed/schema.yml'
+[2025-07-26T17:57:39.601+0000] {subprocess.py:93} INFO - [0m17:57:39  [[33mWARNING[0m]: Test 'test.dbt_crypto_project.not_null_fact_trades_date_id.0a066b9bb6' (models/processed/schema.yml) depends on a node named 'fact_trades' in package '' which was not found
+[2025-07-26T17:57:39.602+0000] {subprocess.py:93} INFO - [0m17:57:39  [[33mWARNING[0m]: Test 'test.dbt_crypto_project.relationships_fact_trades_date_id__date_id__ref_dim_date_.6df2a5a245' (models/processed/schema.yml) depends on a node named 'fact_trades' in package '' which was not found
+[2025-07-26T17:57:39.604+0000] {subprocess.py:93} INFO - [0m17:57:39  [[33mWARNING[0m]: Test 'test.dbt_crypto_project.not_null_fact_trades_coin_id.889e79e752' (models/processed/schema.yml) depends on a node named 'fact_trades' in package '' which was not found
+[2025-07-26T17:57:39.605+0000] {subprocess.py:93} INFO - [0m17:57:39  [[33mWARNING[0m]: Test 'test.dbt_crypto_project.relationships_fact_trades_coin_id__coin_id__ref_dim_coin_.764c317baf' (models/processed/schema.yml) depends on a node named 'fact_trades' in package '' which was not found
+[2025-07-26T17:57:39.779+0000] {subprocess.py:93} INFO - [0m17:57:39  Found 5 models, 5 tests, 2 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[2025-07-26T17:57:39.783+0000] {subprocess.py:93} INFO - [0m17:57:39
+[2025-07-26T17:57:40.209+0000] {subprocess.py:93} INFO - [0m17:57:40  Concurrency: 4 threads (target='dev')
+[2025-07-26T17:57:40.210+0000] {subprocess.py:93} INFO - [0m17:57:40
+[2025-07-26T17:57:40.233+0000] {subprocess.py:93} INFO - [0m17:57:40  1 of 5 START sql table model core_curated.historical_data ...................... [RUN]
+[2025-07-26T17:57:40.234+0000] {subprocess.py:93} INFO - [0m17:57:40  2 of 5 START sql table model core_curated.market_data .......................... [RUN]
+[2025-07-26T17:57:40.739+0000] {subprocess.py:93} INFO - [0m17:57:40  2 of 5 OK created sql table model core_curated.market_data ..................... [[32mSELECT 10[0m in 0.50s]
+[2025-07-26T17:57:40.740+0000] {subprocess.py:93} INFO - [0m17:57:40  1 of 5 OK created sql table model core_curated.historical_data ................. [[32mSELECT 1209[0m in 0.50s]
+[2025-07-26T17:57:40.750+0000] {subprocess.py:93} INFO - [0m17:57:40  3 of 5 START sql table model core_pro.dim_coin ................................. [RUN]
+[2025-07-26T17:57:40.751+0000] {subprocess.py:93} INFO - [0m17:57:40  4 of 5 START sql table model core_processed.dim_date ........................... [RUN]
+[2025-07-26T17:57:40.890+0000] {subprocess.py:93} INFO - [0m17:57:40  3 of 5 ERROR creating sql table model core_pro.dim_coin ........................ [[31mERROR[0m in 0.13s]
+[2025-07-26T17:57:40.895+0000] {subprocess.py:93} INFO - [0m17:57:40  4 of 5 ERROR creating sql table model core_processed.dim_date .................. [[31mERROR[0m in 0.14s]
+[2025-07-26T17:57:40.903+0000] {subprocess.py:93} INFO - [0m17:57:40  5 of 5 SKIP relation core_pro.fact_coins ....................................... [[33mSKIP[0m]
+[2025-07-26T17:57:40.963+0000] {subprocess.py:93} INFO - [0m17:57:40
+[2025-07-26T17:57:40.965+0000] {subprocess.py:93} INFO - [0m17:57:40  Finished running 4 table models, 1 incremental model in 0 hours 0 minutes and 1.18 seconds (1.18s).
+[2025-07-26T17:57:41.032+0000] {subprocess.py:93} INFO - [0m17:57:41
+[2025-07-26T17:57:41.034+0000] {subprocess.py:93} INFO - [0m17:57:41  [31mCompleted with 2 errors and 0 warnings:[0m
+[2025-07-26T17:57:41.035+0000] {subprocess.py:93} INFO - [0m17:57:41
+[2025-07-26T17:57:41.035+0000] {subprocess.py:93} INFO - [0m17:57:41    Database Error in model dim_coin (models/processed/dim_coin.sql)
+[2025-07-26T17:57:41.036+0000] {subprocess.py:93} INFO -   syntax error at or near ""crypto""
+[2025-07-26T17:57:41.037+0000] {subprocess.py:93} INFO -   LINE 25: left "crypto"."core_curated"."historical_data" h
+[2025-07-26T17:57:41.037+0000] {subprocess.py:93} INFO -                 ^
+[2025-07-26T17:57:41.038+0000] {subprocess.py:93} INFO -   compiled Code at target/run/dbt_crypto_project/models/processed/dim_coin.sql
+[2025-07-26T17:57:41.038+0000] {subprocess.py:93} INFO - [0m17:57:41
+[2025-07-26T17:57:41.039+0000] {subprocess.py:93} INFO - [0m17:57:41    Database Error in model dim_date (models/processed/dim_date.sql)
+[2025-07-26T17:57:41.039+0000] {subprocess.py:93} INFO -   syntax error at or near ";"
+[2025-07-26T17:57:41.040+0000] {subprocess.py:93} INFO -   LINE 31: from dates;
+[2025-07-26T17:57:41.041+0000] {subprocess.py:93} INFO -                      ^
+[2025-07-26T17:57:41.041+0000] {subprocess.py:93} INFO -   compiled Code at target/run/dbt_crypto_project/models/processed/dim_date.sql
+[2025-07-26T17:57:41.042+0000] {subprocess.py:93} INFO - [0m17:57:41
+[2025-07-26T17:57:41.042+0000] {subprocess.py:93} INFO - [0m17:57:41  Done. PASS=2 WARN=0 ERROR=2 SKIP=1 TOTAL=5
+[2025-07-26T17:57:45.761+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-07-26T17:57:45.809+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-07-26T17:57:45.828+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=pl001_ingest_crypto_postgres, task_id=dbt_curated_transformation, execution_date=20250726T175720, start_date=20250726T175723, end_date=20250726T175745
+[2025-07-26T17:57:45.884+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 77 for task dbt_curated_transformation (Bash command failed. The command returned a non-zero exit code 1.; 1074)
+[2025-07-26T17:57:45.929+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-26T17:57:45.959+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

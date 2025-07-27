@@ -1,0 +1,224 @@
+[2025-07-27T05:30:11.657+0000] {processor.py:161} INFO - Started process (PID=2565) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:30:11.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:30:11.715+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:30:11.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:30:12.089+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:30:12.349+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:30:12.348+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:30:12.492+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:30:12.492+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:30:12.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 1.081 seconds
+[2025-07-27T05:30:43.356+0000] {processor.py:161} INFO - Started process (PID=2570) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:30:43.362+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:30:43.365+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:30:43.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:30:43.414+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:30:43.487+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:30:43.487+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:30:43.517+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:30:43.517+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:30:43.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.321 seconds
+[2025-07-27T05:31:14.234+0000] {processor.py:161} INFO - Started process (PID=2575) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:31:14.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:31:14.242+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:31:14.241+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:31:14.345+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:31:14.464+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:31:14.464+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:31:14.496+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:31:14.495+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:31:14.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.340 seconds
+[2025-07-27T05:31:44.704+0000] {processor.py:161} INFO - Started process (PID=2580) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:31:44.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:31:44.715+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:31:44.712+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:31:44.761+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:31:44.835+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:31:44.834+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:31:44.852+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:31:44.851+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:31:44.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.229 seconds
+[2025-07-27T05:32:15.270+0000] {processor.py:161} INFO - Started process (PID=2585) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:32:15.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:32:15.273+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:32:15.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:32:15.303+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:32:15.342+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:32:15.342+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:32:15.360+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:32:15.360+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:32:15.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.132 seconds
+[2025-07-27T05:32:45.668+0000] {processor.py:161} INFO - Started process (PID=2590) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:32:45.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:32:45.673+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:32:45.672+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:32:45.703+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:32:45.763+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:32:45.763+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:32:45.813+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:32:45.813+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:32:45.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.263 seconds
+[2025-07-27T05:33:16.057+0000] {processor.py:161} INFO - Started process (PID=2595) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:33:16.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:33:16.061+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:33:16.060+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:33:16.086+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:33:16.128+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:33:16.128+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:33:16.150+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:33:16.150+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:33:16.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.132 seconds
+[2025-07-27T05:33:46.547+0000] {processor.py:161} INFO - Started process (PID=2600) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:33:46.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:33:46.550+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:33:46.550+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:33:46.586+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:33:46.631+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:33:46.630+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:33:46.646+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:33:46.646+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:33:46.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.131 seconds
+[2025-07-27T05:34:16.899+0000] {processor.py:161} INFO - Started process (PID=2605) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:34:16.901+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:34:16.904+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:34:16.903+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:34:16.939+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:34:16.988+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:34:16.988+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:34:17.005+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:34:17.004+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:34:17.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.149 seconds
+[2025-07-27T05:34:47.330+0000] {processor.py:161} INFO - Started process (PID=2610) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:34:47.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:34:47.335+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:34:47.334+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:34:47.359+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:34:47.400+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:34:47.399+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:34:47.414+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:34:47.414+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:34:47.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.116 seconds
+[2025-07-27T05:35:17.930+0000] {processor.py:161} INFO - Started process (PID=2615) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:35:17.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:35:17.933+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:35:17.933+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:35:17.956+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:35:17.996+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:35:17.995+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:35:18.011+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:35:18.011+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:35:18.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.117 seconds
+[2025-07-27T05:35:48.251+0000] {processor.py:161} INFO - Started process (PID=2620) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:35:48.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:35:48.254+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:35:48.254+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:35:48.280+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:35:48.321+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:35:48.320+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:35:48.336+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:35:48.335+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:35:48.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.118 seconds
+[2025-07-27T05:36:18.712+0000] {processor.py:161} INFO - Started process (PID=2625) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:36:18.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:36:18.715+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:36:18.715+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:36:18.746+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:36:18.787+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:36:18.787+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:36:18.804+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:36:18.804+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:36:18.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.123 seconds
+[2025-07-27T05:36:49.018+0000] {processor.py:161} INFO - Started process (PID=2630) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:36:49.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:36:49.022+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:36:49.021+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:36:49.049+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:36:49.091+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:36:49.091+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:36:49.122+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:36:49.121+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:36:49.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.160 seconds
+[2025-07-27T05:37:19.967+0000] {processor.py:161} INFO - Started process (PID=2635) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:37:19.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:37:19.988+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:37:19.987+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:37:20.052+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:37:20.184+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:37:20.184+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:37:20.232+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:37:20.231+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:37:20.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.422 seconds
+[2025-07-27T05:37:50.408+0000] {processor.py:161} INFO - Started process (PID=2640) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:37:50.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:37:50.413+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:37:50.413+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:37:50.473+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:37:50.570+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:37:50.569+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:37:50.593+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:37:50.592+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:37:50.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.230 seconds
+[2025-07-27T05:38:20.707+0000] {processor.py:161} INFO - Started process (PID=2645) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:38:20.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:38:20.710+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:38:20.710+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:38:20.739+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:38:20.794+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:38:20.793+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:38:20.823+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:38:20.823+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:38:20.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.173 seconds
+[2025-07-27T05:38:53.157+0000] {processor.py:161} INFO - Started process (PID=2650) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:38:53.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:38:53.191+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:38:53.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:38:53.784+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:38:53.880+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:38:53.879+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:38:53.904+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:38:53.904+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:38:53.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.871 seconds
+[2025-07-27T05:39:24.642+0000] {processor.py:161} INFO - Started process (PID=2655) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:39:24.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:39:24.644+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:39:24.644+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:39:24.672+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:39:24.719+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:39:24.718+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:39:24.736+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:39:24.735+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:39:24.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.130 seconds
+[2025-07-27T05:39:55.562+0000] {processor.py:161} INFO - Started process (PID=2660) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:39:55.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:39:55.584+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:39:55.581+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:39:55.862+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:39:56.035+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:39:56.035+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:39:56.079+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:39:56.079+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:39:56.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.609 seconds
+[2025-07-27T05:40:26.650+0000] {processor.py:161} INFO - Started process (PID=2665) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:40:26.652+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:40:26.653+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:40:26.653+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:40:26.679+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:40:26.727+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:40:26.727+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:40:26.752+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:40:26.752+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:40:26.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.144 seconds
+[2025-07-27T05:40:57.148+0000] {processor.py:161} INFO - Started process (PID=2670) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:40:57.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:40:57.153+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:40:57.152+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:40:57.199+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:40:57.296+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:40:57.295+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:40:57.325+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:40:57.324+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:40:57.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.231 seconds
+[2025-07-27T05:41:27.804+0000] {processor.py:161} INFO - Started process (PID=2675) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:41:27.806+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:41:27.807+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:41:27.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:41:27.835+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:41:27.880+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:41:27.879+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:41:27.897+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:41:27.896+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:41:27.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.129 seconds
+[2025-07-27T05:41:58.323+0000] {processor.py:161} INFO - Started process (PID=2680) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:41:58.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:41:58.337+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:41:58.332+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:41:58.501+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:41:58.713+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:41:58.712+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:41:58.787+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:41:58.786+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:41:58.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.589 seconds
+[2025-07-27T05:42:29.376+0000] {processor.py:161} INFO - Started process (PID=2685) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:42:29.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:42:29.388+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:42:29.386+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:42:29.508+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:42:29.699+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:42:29.697+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:42:29.773+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:42:29.773+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:42:29.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.550 seconds
+[2025-07-27T05:43:00.128+0000] {processor.py:161} INFO - Started process (PID=2690) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:43:00.134+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:43:00.139+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:43:00.138+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:43:00.252+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:43:00.411+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:43:00.410+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:43:00.481+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:43:00.480+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:43:00.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.474 seconds
+[2025-07-27T05:43:32.350+0000] {processor.py:161} INFO - Started process (PID=2695) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:43:32.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:43:32.411+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:43:32.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:43:33.051+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:43:33.203+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:43:33.203+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:43:33.249+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:43:33.249+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:43:33.317+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 1.040 seconds
+[2025-07-27T05:44:03.775+0000] {processor.py:161} INFO - Started process (PID=2700) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:44:03.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:44:03.779+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:44:03.779+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:44:03.806+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:44:03.853+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:44:03.853+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:44:03.871+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:44:03.870+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:44:03.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.127 seconds
+[2025-07-27T05:44:34.563+0000] {processor.py:161} INFO - Started process (PID=2705) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:44:34.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:44:34.566+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:44:34.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:44:34.596+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:44:34.648+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:44:34.647+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:44:34.666+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:44:34.666+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:44:34.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.142 seconds
+[2025-07-27T05:45:05.608+0000] {processor.py:161} INFO - Started process (PID=2710) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:45:05.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:45:05.661+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:45:05.658+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:45:05.963+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:45:06.972+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:45:06.971+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:45:07.164+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:45:07.163+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:45:07.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 1.896 seconds
+[2025-07-27T05:45:37.518+0000] {processor.py:161} INFO - Started process (PID=2715) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:45:37.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:45:37.521+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:45:37.521+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:45:37.566+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:45:37.674+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:45:37.673+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:45:37.707+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:45:37.707+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:45:37.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.246 seconds
+[2025-07-27T05:46:07.875+0000] {processor.py:161} INFO - Started process (PID=2720) to work on /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:46:07.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow_pipeline.py for tasks to queue
+[2025-07-27T05:46:07.881+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:46:07.881+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:46:07.910+0000] {processor.py:840} INFO - DAG(s) 'pl001_ingest_crypto_postgres' retrieved from /opt/airflow/dags/airflow_pipeline.py
+[2025-07-27T05:46:07.952+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:46:07.952+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-27T05:46:07.967+0000] {logging_mixin.py:188} INFO - [2025-07-27T05:46:07.967+0000] {dag.py:3823} INFO - Setting next_dagrun for pl001_ingest_crypto_postgres to None, run_after=None
+[2025-07-27T05:46:07.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow_pipeline.py took 0.131 seconds

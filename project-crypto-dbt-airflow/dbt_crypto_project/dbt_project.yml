@@ -1,0 +1,20 @@
+name: 'dbt_crypto_project'
+version: '1.0.0'
+config-version: 2
+
+profile: 'dbt_crypto_project' 
+
+model-paths: ["models"]
+
+models:
+  dbt_crypto_project:
+    curated:
+      +schema: curated
+      +materialized: table
+    processed:
+      +schema: pro
+      +materialized: table
+    reporting:
+      +schema: report
+      +materialized: view
+      

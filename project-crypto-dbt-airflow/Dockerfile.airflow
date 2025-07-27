@@ -1,0 +1,6 @@
+FROM apache/airflow:2.8.1-python3.10
+
+USER airflow
+RUN pip install --no-cache-dir dbt-postgres==1.7.14  sqlalchemy pandas requests python-dotenv
+
+WORKDIR /opt/airflow

@@ -1,0 +1,52 @@
+[2025-07-26T18:06:23.630+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-26T18:06:21.686753+00:00 [queued]>
+[2025-07-26T18:06:23.648+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-26T18:06:21.686753+00:00 [queued]>
+[2025-07-26T18:06:23.649+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-26T18:06:23.668+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_curated_transformation> on 2025-07-26 18:06:21.686753+00:00
+[2025-07-26T18:06:23.676+0000] {standard_task_runner.py:60} INFO - Started process 1249 to run task
+[2025-07-26T18:06:23.683+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pl001_ingest_crypto_postgres', 'dbt_curated_transformation', 'manual__2025-07-26T18:06:21.686753+00:00', '--job-id', '81', '--raw', '--subdir', 'DAGS_FOLDER/***_pipeline.py', '--cfg-path', '/tmp/tmp8tqotu4j']
+[2025-07-26T18:06:23.688+0000] {standard_task_runner.py:88} INFO - Job 81: Subtask dbt_curated_transformation
+[2025-07-26T18:06:23.717+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-07-26T18:06:23.779+0000] {task_command.py:423} INFO - Running <TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-26T18:06:21.686753+00:00 [running]> on host dfd1c4a1c4e4
+[2025-07-26T18:06:23.925+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pl001_ingest_crypto_postgres' AIRFLOW_CTX_TASK_ID='dbt_curated_transformation' AIRFLOW_CTX_EXECUTION_DATE='2025-07-26T18:06:21.686753+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-26T18:06:21.686753+00:00'
+[2025-07-26T18:06:23.927+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-07-26T18:06:23.930+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        export DBT_LOG_PATH=/tmp/dbt &&         mkdir -p /tmp/dbt &&         cd /opt/***/dbt &&         dbt run \n        ']
+[2025-07-26T18:06:23.945+0000] {subprocess.py:86} INFO - Output:
+[2025-07-26T18:06:33.687+0000] {subprocess.py:93} INFO - [0m18:06:33  Running with dbt=1.7.14
+[2025-07-26T18:06:34.040+0000] {subprocess.py:93} INFO - [0m18:06:34  Registered adapter: postgres=1.7.14
+[2025-07-26T18:06:34.372+0000] {subprocess.py:93} INFO - [0m18:06:34  Found 5 models, 5 tests, 2 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[2025-07-26T18:06:34.376+0000] {subprocess.py:93} INFO - [0m18:06:34
+[2025-07-26T18:06:34.547+0000] {subprocess.py:93} INFO - [0m18:06:34  Concurrency: 4 threads (target='dev')
+[2025-07-26T18:06:34.549+0000] {subprocess.py:93} INFO - [0m18:06:34
+[2025-07-26T18:06:34.561+0000] {subprocess.py:93} INFO - [0m18:06:34  1 of 5 START sql table model core_curated.historical_data ...................... [RUN]
+[2025-07-26T18:06:34.562+0000] {subprocess.py:93} INFO - [0m18:06:34  2 of 5 START sql table model core_curated.market_data .......................... [RUN]
+[2025-07-26T18:06:35.068+0000] {subprocess.py:93} INFO - [0m18:06:35  1 of 5 OK created sql table model core_curated.historical_data ................. [[32mSELECT 1209[0m in 0.50s]
+[2025-07-26T18:06:35.072+0000] {subprocess.py:93} INFO - [0m18:06:35  2 of 5 OK created sql table model core_curated.market_data ..................... [[32mSELECT 10[0m in 0.50s]
+[2025-07-26T18:06:35.081+0000] {subprocess.py:93} INFO - [0m18:06:35  3 of 5 START sql table model core_pro.dim_date ................................. [RUN]
+[2025-07-26T18:06:35.088+0000] {subprocess.py:93} INFO - [0m18:06:35  4 of 5 START sql table model core_pro.dim_coin ................................. [RUN]
+[2025-07-26T18:06:35.289+0000] {subprocess.py:93} INFO - [0m18:06:35  3 of 5 OK created sql table model core_pro.dim_date ............................ [[32mSELECT 6[0m in 0.20s]
+[2025-07-26T18:06:35.299+0000] {subprocess.py:93} INFO - [0m18:06:35  4 of 5 OK created sql table model core_pro.dim_coin ............................ [[32mSELECT 10[0m in 0.21s]
+[2025-07-26T18:06:35.304+0000] {subprocess.py:93} INFO - [0m18:06:35  5 of 5 START sql incremental model core_pro.fact_coins ......................... [RUN]
+[2025-07-26T18:06:35.430+0000] {subprocess.py:93} INFO - [0m18:06:35  5 of 5 ERROR creating sql incremental model core_pro.fact_coins ................ [[31mERROR[0m in 0.12s]
+[2025-07-26T18:06:35.480+0000] {subprocess.py:93} INFO - [0m18:06:35
+[2025-07-26T18:06:35.481+0000] {subprocess.py:93} INFO - [0m18:06:35  Finished running 4 table models, 1 incremental model in 0 hours 0 minutes and 1.10 seconds (1.10s).
+[2025-07-26T18:06:35.524+0000] {subprocess.py:93} INFO - [0m18:06:35
+[2025-07-26T18:06:35.524+0000] {subprocess.py:93} INFO - [0m18:06:35  [31mCompleted with 1 error and 0 warnings:[0m
+[2025-07-26T18:06:35.525+0000] {subprocess.py:93} INFO - [0m18:06:35
+[2025-07-26T18:06:35.526+0000] {subprocess.py:93} INFO - [0m18:06:35    Database Error in model fact_coins (models/processed/fact_coins.sql)
+[2025-07-26T18:06:35.526+0000] {subprocess.py:93} INFO -   missing FROM-clause entry for table "h"
+[2025-07-26T18:06:35.527+0000] {subprocess.py:93} INFO -   LINE 29:     where h.trading_timestamp > (select max(trading_timestam...
+[2025-07-26T18:06:35.527+0000] {subprocess.py:93} INFO -                      ^
+[2025-07-26T18:06:35.528+0000] {subprocess.py:93} INFO - [0m18:06:35
+[2025-07-26T18:06:35.528+0000] {subprocess.py:93} INFO - [0m18:06:35  Done. PASS=4 WARN=0 ERROR=1 SKIP=0 TOTAL=5
+[2025-07-26T18:06:37.101+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-07-26T18:06:37.120+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-07-26T18:06:37.124+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=pl001_ingest_crypto_postgres, task_id=dbt_curated_transformation, execution_date=20250726T180621, start_date=20250726T180623, end_date=20250726T180637
+[2025-07-26T18:06:37.142+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 81 for task dbt_curated_transformation (Bash command failed. The command returned a non-zero exit code 1.; 1249)
+[2025-07-26T18:06:37.172+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-26T18:06:37.206+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

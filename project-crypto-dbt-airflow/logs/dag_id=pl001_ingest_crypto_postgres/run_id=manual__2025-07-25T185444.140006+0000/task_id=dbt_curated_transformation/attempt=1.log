@@ -1,0 +1,29 @@
+[2025-07-25T18:54:46.014+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-25T18:54:44.140006+00:00 [queued]>
+[2025-07-25T18:54:46.067+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-25T18:54:44.140006+00:00 [queued]>
+[2025-07-25T18:54:46.080+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-25T18:54:46.230+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_curated_transformation> on 2025-07-25 18:54:44.140006+00:00
+[2025-07-25T18:54:46.254+0000] {standard_task_runner.py:60} INFO - Started process 199 to run task
+[2025-07-25T18:54:46.286+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pl001_ingest_crypto_postgres', 'dbt_curated_transformation', 'manual__2025-07-25T18:54:44.140006+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/***_pipeline.py', '--cfg-path', '/tmp/tmptjjbtfuf']
+[2025-07-25T18:54:46.308+0000] {standard_task_runner.py:88} INFO - Job 48: Subtask dbt_curated_transformation
+[2025-07-25T18:54:46.508+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-07-25T18:54:46.787+0000] {task_command.py:423} INFO - Running <TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-25T18:54:44.140006+00:00 [running]> on host e2684426014d
+[2025-07-25T18:54:47.263+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pl001_ingest_crypto_postgres' AIRFLOW_CTX_TASK_ID='dbt_curated_transformation' AIRFLOW_CTX_EXECUTION_DATE='2025-07-25T18:54:44.140006+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-25T18:54:44.140006+00:00'
+[2025-07-25T18:54:47.269+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-07-25T18:54:47.273+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/dbt && dbt run']
+[2025-07-25T18:54:47.296+0000] {subprocess.py:86} INFO - Output:
+[2025-07-25T18:54:52.858+0000] {subprocess.py:93} INFO - [0m18:54:52  Running with dbt=1.10.5
+[2025-07-25T18:54:52.867+0000] {subprocess.py:93} INFO - [0m18:54:52  Encountered an error:
+[2025-07-25T18:54:52.868+0000] {subprocess.py:93} INFO - Runtime Error
+[2025-07-25T18:54:52.869+0000] {subprocess.py:93} INFO -   Could not find profile named 'dbt_crypto_project'
+[2025-07-25T18:54:55.581+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2025-07-25T18:54:55.602+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2025-07-25T18:54:55.616+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=pl001_ingest_crypto_postgres, task_id=dbt_curated_transformation, execution_date=20250725T185444, start_date=20250725T185446, end_date=20250725T185455
+[2025-07-25T18:54:55.633+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 48 for task dbt_curated_transformation (Bash command failed. The command returned a non-zero exit code 2.; 199)
+[2025-07-25T18:54:55.654+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-25T18:54:55.677+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

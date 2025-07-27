@@ -1,0 +1,58 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: crypto
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  airflow:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    container_name: airflow
+    depends_on:
+      - postgres
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/crypto
+      AIRFLOW__WEBSERVER__SECRET_KEY: "my_super_secret_key_123"
+      DBT_PROFILES_DIR: /opt/airflow/dbt/profiles               # <- important
+    volumes:
+      - ./airflow-dags:/opt/airflow/dags
+      - ./dbt_crypto_project:/opt/airflow/dbt                   # <- project root
+      - ./logs:/opt/airflow/logs
+      - ./scripts:/opt/scripts
+    ports:
+      - "8080:8080"
+    command: webserver
+    restart: always
+
+  scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    container_name: airflow_scheduler
+    depends_on:
+      - postgres
+      - airflow
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/crypto
+      AIRFLOW__WEBSERVER__SECRET_KEY: "my_super_secret_key_123"
+      DBT_PROFILES_DIR: /opt/airflow/dbt/profiles               # <- important
+    volumes:
+      - ./airflow-dags:/opt/airflow/dags
+      - ./dbt_crypto_project:/opt/airflow/dbt
+      - ./logs:/opt/airflow/logs
+      - ./scripts:/opt/scripts
+    command: scheduler
+    restart: always
+
+volumes:
+  pgdata:

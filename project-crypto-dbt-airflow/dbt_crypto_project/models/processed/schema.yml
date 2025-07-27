@@ -1,0 +1,44 @@
+version: 2
+
+models:
+  - name: dim_coin
+    description: "Dimension table for unique crypto coins with a surrogate key."
+    columns:
+      - name: coin_id
+        description: "Primary key for the coin dimension."
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_date
+    description: "Date dimension with calendar attributes."
+    columns:
+      - name: date_id
+        description: "Primary key for the date dimension."
+        tests:
+          - not_null
+          - unique
+      - name: date_day
+        description: "Actual date."
+        tests:
+          - not_null
+
+  - name: fact_trades
+    description: "Fact table for crypto trading metrics."
+    columns:
+      - name: fact_key
+        description: "Surogate key"
+      - name: date_id
+        description: "Foreign key to dim_date."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_date')
+              field: date_id
+      - name: coin_id
+        description: "Foreign key to dim_coin."
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_coin')
+              field: coin_id

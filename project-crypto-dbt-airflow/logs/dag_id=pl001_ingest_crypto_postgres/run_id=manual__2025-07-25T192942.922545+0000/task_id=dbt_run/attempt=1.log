@@ -1,0 +1,29 @@
+[2025-07-25T19:29:48.943+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pl001_ingest_crypto_postgres.dbt_run manual__2025-07-25T19:29:42.922545+00:00 [queued]>
+[2025-07-25T19:29:48.976+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pl001_ingest_crypto_postgres.dbt_run manual__2025-07-25T19:29:42.922545+00:00 [queued]>
+[2025-07-25T19:29:48.978+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-25T19:29:49.048+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_run> on 2025-07-25 19:29:42.922545+00:00
+[2025-07-25T19:29:49.076+0000] {standard_task_runner.py:60} INFO - Started process 238 to run task
+[2025-07-25T19:29:49.080+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pl001_ingest_crypto_postgres', 'dbt_run', 'manual__2025-07-25T19:29:42.922545+00:00', '--job-id', '55', '--raw', '--subdir', 'DAGS_FOLDER/***_pipeline.py', '--cfg-path', '/tmp/tmpsxb2gfqo']
+[2025-07-25T19:29:49.089+0000] {standard_task_runner.py:88} INFO - Job 55: Subtask dbt_run
+[2025-07-25T19:29:49.162+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-07-25T19:29:49.320+0000] {task_command.py:423} INFO - Running <TaskInstance: pl001_ingest_crypto_postgres.dbt_run manual__2025-07-25T19:29:42.922545+00:00 [running]> on host 2db9737fc3e6
+[2025-07-25T19:29:49.497+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pl001_ingest_crypto_postgres' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2025-07-25T19:29:42.922545+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-25T19:29:42.922545+00:00'
+[2025-07-25T19:29:49.500+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-07-25T19:29:49.502+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/dbt && dbt run']
+[2025-07-25T19:29:49.519+0000] {subprocess.py:86} INFO - Output:
+[2025-07-25T19:29:55.100+0000] {subprocess.py:93} INFO - [0m19:29:55  Running with dbt=1.10.5
+[2025-07-25T19:29:55.111+0000] {subprocess.py:93} INFO - [0m19:29:55  Encountered an error:
+[2025-07-25T19:29:55.112+0000] {subprocess.py:93} INFO - Runtime Error
+[2025-07-25T19:29:55.112+0000] {subprocess.py:93} INFO -   Could not find profile named 'dbt_crypto_project'
+[2025-07-25T19:29:59.809+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2025-07-25T19:29:59.834+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2025-07-25T19:29:59.839+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=pl001_ingest_crypto_postgres, task_id=dbt_run, execution_date=20250725T192942, start_date=20250725T192948, end_date=20250725T192959
+[2025-07-25T19:29:59.863+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 55 for task dbt_run (Bash command failed. The command returned a non-zero exit code 2.; 238)
+[2025-07-25T19:29:59.907+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-25T19:29:59.932+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

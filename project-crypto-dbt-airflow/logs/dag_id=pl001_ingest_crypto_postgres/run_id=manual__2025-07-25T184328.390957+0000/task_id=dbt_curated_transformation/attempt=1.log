@@ -1,0 +1,29 @@
+[2025-07-25T18:43:30.291+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-25T18:43:28.390957+00:00 [queued]>
+[2025-07-25T18:43:30.333+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-25T18:43:28.390957+00:00 [queued]>
+[2025-07-25T18:43:30.338+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-25T18:43:30.382+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_curated_transformation> on 2025-07-25 18:43:28.390957+00:00
+[2025-07-25T18:43:30.396+0000] {standard_task_runner.py:60} INFO - Started process 185 to run task
+[2025-07-25T18:43:30.405+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pl001_ingest_crypto_postgres', 'dbt_curated_transformation', 'manual__2025-07-25T18:43:28.390957+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/***_pipeline.py', '--cfg-path', '/tmp/tmp1m7l5fg8']
+[2025-07-25T18:43:30.411+0000] {standard_task_runner.py:88} INFO - Job 45: Subtask dbt_curated_transformation
+[2025-07-25T18:43:30.464+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-07-25T18:43:30.551+0000] {task_command.py:423} INFO - Running <TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-25T18:43:28.390957+00:00 [running]> on host a6dcb8efd34f
+[2025-07-25T18:43:30.785+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pl001_ingest_crypto_postgres' AIRFLOW_CTX_TASK_ID='dbt_curated_transformation' AIRFLOW_CTX_EXECUTION_DATE='2025-07-25T18:43:28.390957+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-25T18:43:28.390957+00:00'
+[2025-07-25T18:43:30.790+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-07-25T18:43:30.797+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/dbt && dbt run']
+[2025-07-25T18:43:30.814+0000] {subprocess.py:86} INFO - Output:
+[2025-07-25T18:43:35.852+0000] {subprocess.py:93} INFO - Usage: dbt run [OPTIONS]
+[2025-07-25T18:43:35.853+0000] {subprocess.py:93} INFO - Try 'dbt run -h' for help.
+[2025-07-25T18:43:35.853+0000] {subprocess.py:93} INFO - 
+[2025-07-25T18:43:35.854+0000] {subprocess.py:93} INFO - Error: Invalid value for '--profiles-dir': Path '/root/.dbt' does not exist.
+[2025-07-25T18:43:36.302+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2025-07-25T18:43:36.324+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2025-07-25T18:43:36.332+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=pl001_ingest_crypto_postgres, task_id=dbt_curated_transformation, execution_date=20250725T184328, start_date=20250725T184330, end_date=20250725T184336
+[2025-07-25T18:43:36.360+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 45 for task dbt_curated_transformation (Bash command failed. The command returned a non-zero exit code 2.; 185)
+[2025-07-25T18:43:36.397+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-25T18:43:36.441+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

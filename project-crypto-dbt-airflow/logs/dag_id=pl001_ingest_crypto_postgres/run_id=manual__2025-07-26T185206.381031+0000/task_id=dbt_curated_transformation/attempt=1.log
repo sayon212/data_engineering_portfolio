@@ -1,0 +1,33 @@
+[2025-07-26T18:52:08.695+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-26T18:52:06.381031+00:00 [queued]>
+[2025-07-26T18:52:08.706+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-26T18:52:06.381031+00:00 [queued]>
+[2025-07-26T18:52:08.706+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-26T18:52:08.724+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_curated_transformation> on 2025-07-26 18:52:06.381031+00:00
+[2025-07-26T18:52:08.731+0000] {standard_task_runner.py:60} INFO - Started process 1850 to run task
+[2025-07-26T18:52:08.737+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pl001_ingest_crypto_postgres', 'dbt_curated_transformation', 'manual__2025-07-26T18:52:06.381031+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/***_pipeline.py', '--cfg-path', '/tmp/tmpr4__nw9b']
+[2025-07-26T18:52:08.740+0000] {standard_task_runner.py:88} INFO - Job 92: Subtask dbt_curated_transformation
+[2025-07-26T18:52:08.778+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.10/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-07-26T18:52:08.854+0000] {task_command.py:423} INFO - Running <TaskInstance: pl001_ingest_crypto_postgres.dbt_curated_transformation manual__2025-07-26T18:52:06.381031+00:00 [running]> on host dfd1c4a1c4e4
+[2025-07-26T18:52:08.991+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pl001_ingest_crypto_postgres' AIRFLOW_CTX_TASK_ID='dbt_curated_transformation' AIRFLOW_CTX_EXECUTION_DATE='2025-07-26T18:52:06.381031+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-26T18:52:06.381031+00:00'
+[2025-07-26T18:52:08.996+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-07-26T18:52:08.998+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        export DBT_LOG_PATH=/tmp/dbt &&         mkdir -p /tmp/dbt &&         cd /opt/***/dbt &&         dbt run \n        ']
+[2025-07-26T18:52:09.020+0000] {subprocess.py:86} INFO - Output:
+[2025-07-26T18:52:15.287+0000] {subprocess.py:93} INFO - [0m18:52:15  Running with dbt=1.7.14
+[2025-07-26T18:52:15.750+0000] {subprocess.py:93} INFO - [0m18:52:15  Registered adapter: postgres=1.7.14
+[2025-07-26T18:52:15.798+0000] {subprocess.py:93} INFO - [0m18:52:15  Unable to do partial parsing because a project config has changed
+[2025-07-26T18:52:17.655+0000] {subprocess.py:93} INFO - [0m18:52:17  Encountered an error:
+[2025-07-26T18:52:17.656+0000] {subprocess.py:93} INFO - Compilation Error in model v_dim_coin (models/reporting/v_dim_coin.sql)
+[2025-07-26T18:52:17.657+0000] {subprocess.py:93} INFO -   unexpected '}', expected ')'
+[2025-07-26T18:52:17.658+0000] {subprocess.py:93} INFO -     line 1
+[2025-07-26T18:52:17.659+0000] {subprocess.py:93} INFO -       {{ config(materialized='view' , schema='report' }}
+[2025-07-26T18:52:19.318+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2025-07-26T18:52:19.339+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2025-07-26T18:52:19.343+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=pl001_ingest_crypto_postgres, task_id=dbt_curated_transformation, execution_date=20250726T185206, start_date=20250726T185208, end_date=20250726T185219
+[2025-07-26T18:52:19.362+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 92 for task dbt_curated_transformation (Bash command failed. The command returned a non-zero exit code 2.; 1850)
+[2025-07-26T18:52:19.408+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-26T18:52:19.432+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
