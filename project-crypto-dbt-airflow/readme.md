@@ -1,1 +1,0 @@
-project-delta-live-tables
