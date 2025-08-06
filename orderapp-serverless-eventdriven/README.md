@@ -156,7 +156,7 @@ WebApp/
 **Adding environment variables (very important)**
 - Navigate to the following location and add last 4 variables in function app
 - Go to cosmos and service bus settings the keys and connection strings are available
-- Use the ACS domain name and store inside environment variable
+- Use the ACS domain name from last step and store inside environment variable SENDER_ADDRESS
 
 <img width="604" height="517" alt="image" src="https://github.com/user-attachments/assets/2e8d27b6-bbfc-421b-9442-dd038e53b674" />
 
