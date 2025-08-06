@@ -131,6 +131,14 @@ WebApp/
 
 ---
 
+## Setting Up Azure Communication Services(ACS)
+- Create ACS resource from azure portal
+- Open the resource and create email domain
+<img width="1230" height="542" alt="image" src="https://github.com/user-attachments/assets/f6b7b40b-d8f3-403a-9543-980bc0801464" />
+
+- Copy the domain name. It will be used as environment variable in the Azure function
+
+
 ## Setting Up Azure Functions
 - Create Azure function service from portal with minimum plan capacity
 - Open VSCode from the Azure-microservices/ root folder in local machine
@@ -148,6 +156,7 @@ WebApp/
 **Adding environment variables (very important)**
 - Navigate to the following location and add last 4 variables in function app
 - Go to cosmos and service bus settings the keys and connection strings are available
+- Use the ACS domain name and store inside environment variable
 
 <img width="604" height="517" alt="image" src="https://github.com/user-attachments/assets/2e8d27b6-bbfc-421b-9442-dd038e53b674" />
 
