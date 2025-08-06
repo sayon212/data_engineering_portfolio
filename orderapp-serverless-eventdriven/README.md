@@ -1,4 +1,4 @@
-# 🛒 Serverless Order Management System (Azure Microservices)
+# 🛒 Serverless Event Driven Order Management System (Azure Microservices)
 
 A scalable, event-driven **order management platform** built using **Azure Functions**, **Cosmos DB**, **Service Bus**, and **Azure Web Apps** — designed for modern eCommerce scenarios with clean separation of concerns via microservices.
 
