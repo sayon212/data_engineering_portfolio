@@ -19,12 +19,16 @@ realtime-stream-stocks-candle-chart/
 │   └── sunpharma.csv
 │   └── wipro.csv
 │   └── icici.csv
+│
 ├── Python producer/          # data producer to send data to event hub
 │   └── producer.py
+│
 ├── Stream Analytics/         # stream query to process data every 30 second
 │   ├── process.sql
+│
 ├──PowerBI/
 │   ├── stocks_streaming.pbix
+│
 └── README.md
 ```
 
