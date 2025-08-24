@@ -1,4 +1,4 @@
-# 🚀 Azure DIY Spark in Azure VIrtual Machines Cluster (in 5 Minutes!)
+# 🚀 Azure DIY Spark in Azure Virtual Machines Cluster (in 5 Minutes!)
 
 [![Azure](https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoft-azure&logoColor=white)](https://azure.microsoft.com/)
 [![Spark](https://img.shields.io/badge/Apache%20Spark-3.5.0-orange?logo=apachespark&logoColor=white)](https://spark.apache.org/)
