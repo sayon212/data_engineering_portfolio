@@ -11,6 +11,7 @@ Perfect as a learning exercise or portfolio project to demonstrate infra, networ
 
 ---
 
+
 # 🔗 Read my full article which shows step by step setup:
 👉 [Read the detailed walkthrough on Medium](https://medium.com/@sayon.biems/i-created-my-own-managed-spark-cluster-within-just-5-minutes-in-azure-80a0614d5453)  
 
@@ -44,12 +45,26 @@ Perfect as a learning exercise or portfolio project to demonstrate infra, networ
 | 🐍 Language      | Python (PySpark) + Bash scripts          |
 | 📊 Monitoring    | Spark UI (8080 & 4040)                   |
 
+
 ## 📚 What I Learned
 
 - 🖧 **Azure Networking** → VNets, private IPs, firewall rules  
 - ⚡ **Cluster Orchestration** → How master & workers connect  
 - 🔍 **Spark Internals** → Master-Worker communication & job scheduling  
-- 💡 **Why Managed Services Exist** → After doing it manually, Databricks feels magical  
+- 💡 **Why Managed Services Exist** → After doing it manually, Databricks feels magical
+
+
+## Spark running in Azure VM
+<img width="640" height="338" alt="image" src="https://github.com/user-attachments/assets/4f90e19a-9ebc-409e-8de2-df82c233de92" />
+
+
+## Worker Node in Azure VM
+<img width="640" height="573" alt="image" src="https://github.com/user-attachments/assets/31939ef8-6c5c-4ecd-9c4a-b40961acb735" />
+
+
+## Spark running in Master
+<img width="640" height="330" alt="image" src="https://github.com/user-attachments/assets/a75e65f6-1507-4b6a-bbb3-5e7de3b8ac95" />
+
 
 ## 👨‍💻 **About the Author**
 I am Sayon Bhattacharjee, a passionate engineer with expertise in building scalable and modern enterprise solutions using multicloud and diverse range of Big Data technologies.
