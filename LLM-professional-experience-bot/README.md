@@ -13,6 +13,9 @@ It’s recruiter-ready and can notify me via email when someone wants to reach o
 - Tavily API ✉️ – Email notifications
 - Gradio - Frontend UI
 
+## Architecture
+<img width="758" height="442" alt="image" src="https://github.com/user-attachments/assets/ea4a4e32-70c6-42bb-b4dd-ad602a2a6866" />
+
 ## 🛠️ Key Features
 
 - 🎯 Recruiter can ask anything about my career, skills, and projects
@@ -93,11 +96,9 @@ This will be used to send email. Create API Key
 
 <img width="604" height="251" alt="image" src="https://github.com/user-attachments/assets/09a1d2c0-a1b3-4d95-bb3d-960191460bf6" />
 
+# 👨‍💻 About the Author
+I am Sayon Bhattacharjee, a passionate Data Engineer with expertise in building scalable and modern data pipelines using multicloud and diverse range of Big Data technologies.
+I love solving real-world data challenges, optimizing workflows, and exploring cutting-edge tools to deliver high-quality, production-ready solutions.
 
-
-
-
-
-
-
+🔗 [LinkedIn](https://www.linkedin.com/in/sayon-bhattacharjee-a33380218/)
 
