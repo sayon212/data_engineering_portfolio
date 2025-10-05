@@ -1,1 +1,6 @@
-
+gradio
+openai 
+openai-agents  
+databricks-vectorsearch
+tavily-python 
+brevo-python
