@@ -16,6 +16,7 @@ I like to roleplay as **Automation Orchestrator** or **Enterprise Data Engineeri
 |3| 📊 **Crypto ETL Pipeline** | End-to-end pipeline with API → PostgreSQL → dbt → Airflow | Python, PostgreSQL, dbt, Airflow, Docker | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/project-crypto-dbt-airflow) |
 |4| 📈 **Realtime Stock Streaming** | Real-time stock ticks processing every 30 seconds | Azure Event Hub, Stream Analytics, Cosmos DB, PowerBI | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/realtime-stream-stocks-candle_chart) |
 |5| 🛒 **Serverless Event Driven Application** | Order processing system using serverless architecture | Python, Azure Functions, Service Bus, Cosmos DB, Azure Web App | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/orderapp-serverless-eventdriven) |
+|6| 🛒 **LLM based Career BOT** | Chatbot that answers any question about my professional experience | RAG, OpenAI, Gradio, Vector Search, Databricks, Tavily | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/LLM-professional-experience-bot) |
 
 ---
 
