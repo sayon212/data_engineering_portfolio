@@ -11,12 +11,14 @@ I like to roleplay as **Automation Orchestrator** or **Enterprise Data Engineeri
 
 |#| Project | Description | Tech Stack | Links |
 |-|---------|-------------|------------|-------|
-|1| ⚡ **Managed Spark Cluster on Azure VM** | Built my own Spark cluster with Azure VMs (1 master + 2 workers) | Azure VM, VNet, Spark, Ubuntu | 📖[Medium](https://medium.com/@sayon.biems/i-created-my-own-managed-spark-cluster-within-just-5-minutes-in-azure-80a0614d5453) |
-|2| 🔒 **Securing Spark VMs with Bastion** | Configured **VNet, Subnets, NSG & Bastion** for secure VM access | Azure VM, VNet, Subnet, NSG, Bastion | 📖[Medium](https://medium.com/@sayon.biems/securing-my-apache-spark-cluster-on-azure-with-bastion-849c063e3fec) |
-|3| 📊 **Crypto ETL Pipeline** | End-to-end pipeline with API → PostgreSQL → dbt → Airflow | Python, PostgreSQL, dbt, Airflow, Docker | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/project-crypto-dbt-airflow) |
-|4| 📈 **Realtime Stock Streaming** | Real-time stock ticks processing every 30 seconds | Azure Event Hub, Stream Analytics, Cosmos DB, PowerBI | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/realtime-stream-stocks-candle_chart) |
-|5| 🛒 **Serverless Event Driven Application** | Order processing system using serverless architecture | Python, Azure Functions, Service Bus, Cosmos DB, Azure Web App | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/orderapp-serverless-eventdriven) |
-|6| 🤖 **LLM based Career BOT** | Chatbot that answers any question about my professional experience | RAG, OpenAI, Gradio, Vector Search, Databricks, Tavily | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/LLM-professional-experience-bot) |
+|1| 🤖 **LLM based Career BOT** | Chatbot that answers any question about my professional experience | RAG, OpenAI, Gradio, Vector Search, Databricks, Tavily | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/LLM-professional-experience-bot) |
+|2|🤖 **SQL Server LLM Agent — Intelligent Database Assistant** | Chatbot that answers user query by fetching data from SQL Server and can execute DDL DML TCL | OpenAI, Gradio, Agentic Framework, Agent SDK | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/LLM_SQL_Assistant) |
+|3| ⚡ **Managed Spark Cluster on Azure VM** | Built my own Spark cluster with Azure VMs (1 master + 2 workers) | Azure VM, VNet, Spark, Ubuntu | 📖[Medium](https://medium.com/@sayon.biems/i-created-my-own-managed-spark-cluster-within-just-5-minutes-in-azure-80a0614d5453) |
+|4| 🔒 **Securing Spark VMs with Bastion** | Configured **VNet, Subnets, NSG & Bastion** for secure VM access | Azure VM, VNet, Subnet, NSG, Bastion | 📖[Medium](https://medium.com/@sayon.biems/securing-my-apache-spark-cluster-on-azure-with-bastion-849c063e3fec) |
+|5| 📊 **Crypto ETL Pipeline** | End-to-end pipeline with API → PostgreSQL → dbt → Airflow | Python, PostgreSQL, dbt, Airflow, Docker | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/project-crypto-dbt-airflow) |
+|6| 📈 **Realtime Stock Streaming** | Real-time stock ticks processing every 30 seconds | Azure Event Hub, Stream Analytics, Cosmos DB, PowerBI | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/realtime-stream-stocks-candle_chart) |
+|7| 🛒 **Serverless Event Driven Application** | Order processing system using serverless architecture | Python, Azure Functions, Service Bus, Cosmos DB, Azure Web App | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/orderapp-serverless-eventdriven) |
+
 
 ---
 
