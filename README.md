@@ -12,7 +12,7 @@ I like to roleplay as **Automation Orchestrator** or **Enterprise Data Engineeri
 |#| Project | Description | Tech Stack | Links |
 |-|---------|-------------|------------|-------|
 |1| 🤖 **LLM based Career BOT** | Chatbot that answers any question about my professional experience | RAG, OpenAI, Gradio, Vector Search, Databricks, Tavily | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/LLM-professional-experience-bot) |
-|2|🤖 **SQL Server Intelligent Database Assistant** | Chatbot that answers user query by fetching data from SQL Server and can execute DDL DML TCL by retaining user conversation | OpenAI, SQL Server, Gradio, Agentic Framework, Agent SDK | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/LLM_SQL_Assistant) |
+|2| 🤖 **SQL Server Intelligent Database Assistant** | Chatbot that answers user query by fetching data from SQL Server and can execute DDL DML TCL by retaining user conversation | OpenAI, SQL Server, Gradio, Agentic Framework, Agent SDK | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/LLM_SQL_Assistant) |
 |3| ⚡ **Managed Spark Cluster on Azure VM** | Built my own Spark cluster with Azure VMs (1 master + 2 workers) | Azure VM, VNet, Spark, Ubuntu | 📖[Medium](https://medium.com/@sayon.biems/i-created-my-own-managed-spark-cluster-within-just-5-minutes-in-azure-80a0614d5453) |
 |4| 🔒 **Securing Spark VMs with Bastion** | Configured **VNet, Subnets, NSG & Bastion** for secure VM access | Azure VM, VNet, Subnet, NSG, Bastion | 📖[Medium](https://medium.com/@sayon.biems/securing-my-apache-spark-cluster-on-azure-with-bastion-849c063e3fec) |
 |5| 📊 **Crypto ETL Pipeline** | End-to-end pipeline with API → PostgreSQL → dbt → Airflow | Python, PostgreSQL, dbt, Airflow, Docker | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/project-crypto-dbt-airflow) |
@@ -25,7 +25,8 @@ I like to roleplay as **Automation Orchestrator** or **Enterprise Data Engineeri
 ## 🛠️ Skills & Tech I Use  
 
 - ☁️ **Azure** → ADF, ADLS, Synapse, Azure Functions, Databricks, Service Bus, Cosmos DB, Stream Analytics, VMs, Networking, Infra
-- ⚡ **Big Data** → Apache Spark, Kafka, PySpark, Delta Lake, DLT 
+- ⚡ **Big Data** → Apache Spark, Kafka, PySpark, Delta Lake, DLT
+- 🤖 **GenAI** → RAG, VectorDB, Agentic Framework, OpenAI, CrewAI, Autogen, MCP
 - 🗄️ **Databases** → SQL Server, PostgreSQL, Azure SQL, Cosmos DB  
 - 🛠️ **Tools** → Airflow, dbt, Docker, DevOps
 - 📊 **Visualization** → Power BI
