@@ -18,7 +18,11 @@ I like to roleplay as **Automation Orchestrator** or **Enterprise Data Engineeri
 |5| 📊 **Crypto ETL Pipeline** | End-to-end pipeline with API → PostgreSQL → dbt → Airflow | Python, PostgreSQL, dbt, Airflow, Docker | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/project-crypto-dbt-airflow) |
 |6| 📈 **Realtime Stock Streaming** | Real-time stock ticks processing every 30 seconds | Azure Event Hub, Stream Analytics, Cosmos DB, PowerBI | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/realtime-stream-stocks-candle_chart) |
 |7| 🛒 **Serverless Event Driven Application** | Order processing system using serverless architecture | Python, Azure Functions, Service Bus, Cosmos DB, Azure Web App | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/orderapp-serverless-eventdriven) |
-
+|8|**Databricks Spark Declarative Pipelines** |Building dimension and fact table using Spark Declarative Pipelines| Databricks, Apache Spark, LakeFlow, Auto Loader, Stream Processing | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/lakeflow-spark-declarative-pipeline) |
+|9|**Databricks Genie API Connect** |Connecting Databricks Genie with REST API| Databricks, Python | 🔗[Github](https://github.com/sayon212/data_engineering_portfolio/tree/main/databricks_genie_api) |
+|10|**Databricks RLS CLS** |Row Level and Column Security, Data Security and Governance| Databricks,SQL| 📖[Medium](https://medium.com/@sayon.biems/how-i-secured-databricks-genie-space-using-row-level-column-level-security-56891e84b224) |
+|11|**Azure SQL Deployment using DACPAC & DevOps** |Azure SQL Automated Deployment| Azure DevOps, Visual Studio, Azure SQL, Release Pipelines | 📖[Medium](https://medium.com/@sayon.biems/azure-sql-deployment-using-dacpac-devops-a1e7d06fb45b) |
+|12|**DevOps Pipeline with a Self-Hosted Agent** |SQL Server Automated Deployment| Azure DevOps, Visual Studio, SQL Server, Release Pipelines | 📖[Medium](https://medium.com/@sayon.biems/building-a-devops-pipeline-with-a-self-hosted-agent-for-local-sql-server-deployment-79052659fc08) |
 
 ---
 
