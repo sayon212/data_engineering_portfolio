@@ -7,7 +7,7 @@ I am a **Automation Orchestrator** and **Enterprise Data Engineering Specialist*
 
 ---
 
-## 📂 My Project Portfolio  
+## 📂 My Projects
 
 |#| Project | Description | Tech Stack | Links |
 |-|---------|-------------|------------|-------|
