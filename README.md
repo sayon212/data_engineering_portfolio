@@ -3,7 +3,7 @@
 
 🚀 **Senior Data Engineer Data Enthusiast**  
 Passionate about building **scalable, secure, and production-ready data solutions** on Azure ☁️  
-I like to roleplay as **Automation Orchestrator** or **Enterprise Data Engineering Specialist**
+I am a **Automation Orchestrator** and **Enterprise Data Engineering Specialist**
 
 ---
 
